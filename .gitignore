@@ -1,0 +1,5 @@
+web/.vscode/
+web/node_modules/
+web/dist/
+api/node_modules/
+api/.env

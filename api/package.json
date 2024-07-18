@@ -1,0 +1,23 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API backend for the Chipsparadise casino of the Democratic Republic Einstein - School as a countries / Schule als Staat project of the Albert Einstein Gymnasium / AEG",
+  "main": "main.js",
+  "repository": "https://codeberg.org/Minecodes/chipsparadise/",
+  "author": "Thies Ohme <contact@minecodes.de>",
+  "license": "BSD-3-Clause",
+  "private": false,
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "fastify-supabase": "^1.2.1",
+    "ps-logger": "^1.0.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
+  }
+}
